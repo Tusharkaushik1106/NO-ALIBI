@@ -1,0 +1,242 @@
+{
+  "blink_spike": {
+    "low": [
+      {
+        "observation": "Blink rate increased above baseline.",
+        "interpretation": "Suggests elevated cognitive activity. The question likely required more processing than the answer implied."
+      },
+      {
+        "observation": "A cluster of rapid blinks occurred during the response window.",
+        "interpretation": "Pattern associated with internal negotiation. Something was being weighed."
+      },
+      {
+        "observation": "Blink frequency deviated noticeably from calibration.",
+        "interpretation": "May indicate the question activated a line of thought that required effort to manage."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Blink rate spiked sharply and held.",
+        "interpretation": "Sustained elevation suggests the question landed somewhere specific. The response was not reflexive."
+      },
+      {
+        "observation": "Rapid blinking persisted across most of the response window.",
+        "interpretation": "This pattern is consistent with active suppression or reconstruction. The first instinct was edited."
+      }
+    ]
+  },
+  "blink_suppression": {
+    "low": [
+      {
+        "observation": "Blink rate dropped below baseline.",
+        "interpretation": "Suggests heightened focus or a freeze-adjacent response. Attention narrowed."
+      },
+      {
+        "observation": "Blinking slowed noticeably during this question.",
+        "interpretation": "May indicate the subject was concentrating on controlling their output."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Blinking nearly ceased for the duration of the response.",
+        "interpretation": "Sustained suppression suggests the question demanded full attentional resources. Something was being held in place."
+      },
+      {
+        "observation": "Blink rate flatlined well below the established baseline.",
+        "interpretation": "Pattern associated with deliberate composure. The face went quiet while the mind did not."
+      }
+    ]
+  },
+  "eye_narrowing": {
+    "low": [
+      {
+        "observation": "Eye aperture reduced below baseline.",
+        "interpretation": "Suggests scrutiny or discomfort with the question's framing."
+      },
+      {
+        "observation": "A sustained narrowing of the eyes was observed.",
+        "interpretation": "May indicate evaluation. The subject appeared to be assessing the question itself."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Eyes narrowed and held for a sustained period.",
+        "interpretation": "This pattern is consistent with displeasure or concentrated effort. The question provoked a guarded response."
+      },
+      {
+        "observation": "Significant reduction in eye openness persisted throughout.",
+        "interpretation": "Suggests the subject was filtering. The visible reaction was managed, not spontaneous."
+      }
+    ]
+  },
+  "jaw_tension": {
+    "low": [
+      {
+        "observation": "Jaw movement reduced to near-zero.",
+        "interpretation": "Suggests rigidity. Something was being held back physically."
+      },
+      {
+        "observation": "The jaw locked briefly during the response window.",
+        "interpretation": "Pattern associated with suppressed speech. An initial response was likely withheld."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Sustained jaw rigidity was detected throughout the response.",
+        "interpretation": "Suggests the question produced a reaction the subject chose to contain. The body registered what the voice did not."
+      },
+      {
+        "observation": "Jaw remained locked well beyond typical micro-movement range.",
+        "interpretation": "This level of sustained tension is consistent with effortful restraint. The answer required physical negotiation."
+      }
+    ]
+  },
+  "mouth_clamp": {
+    "low": [
+      {
+        "observation": "Mouth compression detected below baseline.",
+        "interpretation": "Suggests a withheld response. The lips closed before the words were ready."
+      },
+      {
+        "observation": "Lip aperture narrowed during the response window.",
+        "interpretation": "May indicate the subject considered and rejected an initial answer."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Sustained mouth compression held across the response.",
+        "interpretation": "Pattern consistent with active suppression. A draft response was rejected internally before delivery."
+      },
+      {
+        "observation": "Mouth remained tightly compressed for the majority of the window.",
+        "interpretation": "Suggests the subject was managing output carefully. The visible restraint was deliberate."
+      }
+    ]
+  },
+  "facial_constraint": {
+    "low": [
+      {
+        "observation": "Jaw rigidity combined with mouth compression.",
+        "interpretation": "Suggests coordinated suppression. Multiple muscle groups locked simultaneously."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Both jaw and mouth locked into a sustained constrained state.",
+        "interpretation": "This cluster suggests the question provoked a response that was physically contained. The face clamped down."
+      },
+      {
+        "observation": "Jaw tension and mouth compression co-occurred throughout the response.",
+        "interpretation": "Pattern associated with effortful silence. What was not said may be more significant than what was."
+      }
+    ]
+  },
+  "facial_freeze": {
+    "low": [
+      {
+        "observation": "Micro-movements dropped across all tracked signals.",
+        "interpretation": "Suggests a brief freeze response. The question produced a moment of stillness."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Near-total cessation of facial movement was observed.",
+        "interpretation": "Sustained freeze suggests the question created a cognitive bottleneck. All visible output was suspended."
+      },
+      {
+        "observation": "The face went still. No signal deviated from flat.",
+        "interpretation": "The most notable signal is sometimes the absence of one. The system registered controlled stillness."
+      },
+      {
+        "observation": "All tracked facial signals flatlined simultaneously.",
+        "interpretation": "Pattern consistent with active suppression or deep processing. The subject's face stopped broadcasting."
+      }
+    ]
+  },
+  "cognitive_load": {
+    "low": [
+      {
+        "observation": "Elevated blink rate coincided with jaw tension.",
+        "interpretation": "Suggests the question demanded significant processing while the subject attempted to maintain composure."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Blink spike and jaw rigidity co-occurred throughout the response.",
+        "interpretation": "This cluster is consistent with high cognitive load under restraint. The mind was working harder than the face wanted to show."
+      },
+      {
+        "observation": "Sustained blink elevation paired with locked jaw.",
+        "interpretation": "Suggests the question activated competing processes. The answer required construction, not recall."
+      }
+    ]
+  },
+  "suppression_cluster": {
+    "low": [
+      {
+        "observation": "Eye narrowing and mouth compression were observed together.",
+        "interpretation": "Suggests coordinated suppression across the upper and lower face."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Eyes narrowed while the mouth compressed. Both held.",
+        "interpretation": "This pattern is consistent with a guarded response. The face tightened around something it did not want to release."
+      },
+      {
+        "observation": "Sustained suppression cluster detected across eye and mouth regions.",
+        "interpretation": "Suggests the question provoked a reaction that was actively managed. The visible output was curated."
+      }
+    ]
+  },
+  "arousal_spike": {
+    "low": [
+      {
+        "observation": "Eye openness and mouth aperture both increased above baseline.",
+        "interpretation": "Suggests a brief arousal response. The question registered before the subject could regulate."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Widened eyes and increased mouth openness held across the response.",
+        "interpretation": "Sustained arousal pattern suggests the question produced genuine surprise or recognition. The face opened before the mind caught up."
+      },
+      {
+        "observation": "Both eye and mouth aperture elevated significantly and held.",
+        "interpretation": "Pattern consistent with an unmanaged reaction. The subject's initial response was visible before any correction occurred."
+      }
+    ]
+  },
+  "composure_performance": {
+    "low": [
+      {
+        "observation": "Eye and jaw signals remained flat throughout.",
+        "interpretation": "Suggests maintained composure. Whether natural or performed is not determinable from signals alone."
+      }
+    ],
+    "medium": [
+      {
+        "observation": "All monitored signals stayed within a narrow band. Unusually narrow.",
+        "interpretation": "This level of consistency suggests active control. Relaxed subjects move. This subject did not."
+      },
+      {
+        "observation": "Facial signals flatlined despite the nature of the question.",
+        "interpretation": "Sustained composure under pressure is itself a pattern. The absence of deviation was deliberate."
+      }
+    ]
+  },
+  "null": {
+    "low": [
+      {
+        "observation": "Nothing notable was observed.",
+        "interpretation": ""
+      }
+    ],
+    "medium": [
+      {
+        "observation": "Nothing notable was observed.",
+        "interpretation": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Q01",
+    "tag": "integrity",
+    "text": "You find a wallet with a large sum of cash. No cameras. No witnesses. What do you do -- and why did you hesitate before answering?"
+  },
+  {
+    "id": "Q02",
+    "tag": "loyalty",
+    "text": "Someone you respect asks you to lie for them. It's a small lie. Harmless, they say. Do you do it?"
+  },
+  {
+    "id": "Q03",
+    "tag": "integrity",
+    "text": "You're given credit for work someone else did. No one will ever know. Do you correct the record?"
+  },
+  {
+    "id": "Q04",
+    "tag": "passivity",
+    "text": "A stranger is being publicly humiliated. Stepping in costs you nothing but attention. Do you intervene?"
+  },
+  {
+    "id": "Q05",
+    "tag": "boundaries",
+    "text": "You can prevent something bad from happening, but only by breaking a rule you've never broken. What's the rule?"
+  },
+  {
+    "id": "Q06",
+    "tag": "conformity",
+    "text": "Everyone in a room agrees on something you know is wrong. Do you speak, or do you wait?"
+  },
+  {
+    "id": "Q07",
+    "tag": "loyalty",
+    "text": "You discover a close ally has done something you find indefensible. They haven't been caught. What's your next move?"
+  },
+  {
+    "id": "Q08",
+    "tag": "guilt",
+    "text": "An anonymous act of yours caused minor harm to someone. You'll never be connected to it. Does it still bother you?"
+  },
+  {
+    "id": "Q09",
+    "tag": "integrity",
+    "text": "You're offered an advantage that is technically legal but widely considered unfair. Do you take it?"
+  },
+  {
+    "id": "Q10",
+    "tag": "recall",
+    "text": "You have the power to erase one decision you've made. You won't say which -- but your face just did. What was it?"
+  },
+  {
+    "id": "Q11",
+    "tag": "triage",
+    "text": "Two people need help. You can only assist one. Neither knows about the other. How do you choose -- and what do you tell the one you didn't pick?"
+  },
+  {
+    "id": "Q12",
+    "tag": "meta",
+    "text": "You've just answered eleven questions. Which one made you most uncomfortable -- and why are you reconsidering your answer right now?"
+  }
+]
