@@ -9,6 +9,7 @@ import mediapipe as mp
 from signals import extract_signals, compute_baseline, compute_deltas
 from patterns import PatternDetector, format_patterns
 from commentary import generate_question_commentary, format_commentary, reset_session as reset_commentary
+from case_file import save_case_file
 
 BaseOptions = mp.tasks.BaseOptions
 FaceLandmarker = mp.tasks.vision.FaceLandmarker
@@ -483,6 +484,12 @@ def main():
                 q_with = sum(1 for e in session_log if e["pattern_count"] > 0)
                 print(f"\n  Questions with sustained patterns: {q_with} / {len(session_log)}")
                 print("=" * 50)
+
+                # generate case file
+                case_path, case_text = save_case_file(session_log)
+                print("\n" + case_text)
+                print(f"\nCase file saved to {os.path.abspath(case_path)}")
+
                 phase_start = 0  # prevent re-printing
 
         # title

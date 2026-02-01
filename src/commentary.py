@@ -54,22 +54,30 @@ def get_commentary(pattern_name, confidence):
     }
 
 
+_NULL_TEXT = "No sustained facial patterns were detected during the response window."
+_MAX_OBSERVATIONS = 3
+
+
 def generate_question_commentary(aggregated_patterns):
     if not aggregated_patterns:
         return [{
-            "observation": "Nothing notable was observed.",
+            "observation": _NULL_TEXT,
             "interpretation": "",
         }]
 
+    # aggregated_patterns arrives sorted by hits (descending) from aggregate_patterns()
+    # take only the top patterns by sustained duration / hit count
+    top = aggregated_patterns[:_MAX_OBSERVATIONS]
+
     results = []
-    for p in aggregated_patterns:
+    for p in top:
         c = get_commentary(p["pattern"], p["confidence"])
         if c:
             results.append(c)
 
     if not results:
         return [{
-            "observation": "Nothing notable was observed.",
+            "observation": _NULL_TEXT,
             "interpretation": "",
         }]
 
